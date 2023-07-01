@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <script src="https://kit.fontawesome.com/1229d2fa6e.js" crossorigin="anonymous"></script>
+
+    <script src="./main.js/script.js" defer></script>
+
+    <title>Design Agency</title>
+  </head>
+  <body>
+
+    <!-- navbar section  -->
+    <nav id="nav" class="navbar fixed-top navbar-expand-lg navbar-dark ">
+        <div class="container" style="margin: .8rem auto;">
+          <a class="navbar-brand" href="#"><img src="./images/others/logo.png"  style="height: 24px;" alt=""></a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- header section  -->
+    <section class="header-wrap" id="home">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide header-slide">
+                    <div class="swiper-img">
+                        <img src="./images/header/header-1.jpg" alt="">
+                    </div>
+                    <div class="swiper-data">
+                        <h1 class="header-h1">CREATIVE AGENCY</h1>
+                        <p class="text-white header-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur rerum molestiae commodi animi nostrum autem dicta dolor.</p>
+                        <a href="" class="sec-btn me-2">READ MORE</a>
+                        <a href="" class="tri-btn b-2 ms-2">PORTFOLIO</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-img">
+                        <img src="./images/header/header-2.jpg" alt="">
+                    </div>
+                    <div class="swiper-data">
+                        <h1 class="header-h1">TANGIBLE RESULTS</h1>
+                        <p class="text-white header-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur rerum molestiae commodi animi nostrum autem dicta dolor.</p>
+                        <a href="" class="sec-btn me-2">READ MORE</a>
+                        <a href="" class="tri-btn b-2 ms-2">PORTFOLIO</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-img">
+                        <img src="./images/header/header-3.jpg" alt="">
+                    </div>
+                    <div class="swiper-data">
+                        <h1 class="header-h1">PREMIUM DESIGNS</h1>
+                        <p class="text-white header-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur rerum molestiae commodi animi nostrum autem dicta dolor.</p>
+                        <a href="" class="sec-btn me-2">READ MORE</a>
+                        <a href="" class="tri-btn b-2 ms-2">PORTFOLIO</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-img">
+                        <img src="./images/header/header-4.png" alt="">
+                    </div>
+                    <div class="swiper-data">
+                        <h1 class="header-h1">CREATIVE RESULTS</h1>
+                        <p class="text-white header-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur rerum molestiae commodi animi nostrum autem dicta dolor.</p>
+                        <a href="" class="sec-btn me-2">READ MORE</a>
+                        <a href="" class="tri-btn b-2 ms-2">PORTFOLIO</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            <div class="autoplay-progress">
+              <svg viewBox="0 0 48 48">
+                <circle cx="24" cy="24" r="20"></circle>
+              </svg>
+              <span></span>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- about section  -->
+    <section class="about-wrap" id="about">
+        <div class="container">
+            <div class="row about-row" >
+                <div class="about-txt" data-aos="slide-up">
+                    <h1 class="mb-4">We believe in the power of <span class="orange"> Great ideas <hr> </span></h1>
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. A reprehenderit qui perferendis dolores voluptas quidem.</p>
+                    <a href="" class="main-btn">READ MORE<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="about-imgs d-flex" data-aos="slide-up">
+                    <div class="img-box"><img src="./images/others/img-1.jpg" alt=""></div>
+                    <div class="img-box img-2"><img src="./images/others/img-2.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section  -->
+    <section class="service-wrap" id="services">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="service-img p-0">
+                    <img src="./images/others/service.jpg" alt="">
+                </div>
+                <div class="service-txt" data-aos="slide-up">
+                    <h1 class="mb-3">OUR <span class="orange">SERVICES <hr> </span></h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text.</p>
+                    <div class="row service-box-wrap" data-aos="slide-up">
+                        <div class="service-box">
+                            <h2 class="orange" style="font-weight: 600;">&#8213 01 </h2>
+                            <h4>Graphic Design</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="service-box">
+                            <h2 class="orange" style="font-weight: 600;">&#8213 02</h2>
+                            <h4>Web Design</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="service-box">
+                            <h2 class="orange" style="font-weight: 600;">&#8213 03</h2>
+                            <h4>Branding</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="service-box">
+                            <h2 class="orange" style="font-weight: 600;">&#8213 04</h2>
+                            <h4>Photography</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Portfolio section  -->
+    <section class="portfolio-wrap" id="portfolio">
+        <div class="container-fluid">
+            <div class="row text-center port-head" data-aos="slide-up">
+                <h1> &#8213 OUR <span class="orange">PORTFOLIO &#8213 </span></h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="row port-row">
+                <div class="port-left">
+                    <div class="port-left-1" data-aos="slide-up">
+                        <img src="./images/portfolio/port-1-img.jpg" alt="">
+                    </div>
+                    <div class="port-left-right">
+                        <div class="port-left-2" data-aos="slide-up">
+                            <img src="./images/portfolio/port-2-img.jpg" alt="">
+                        </div>
+                        <div class="port-left-3" data-aos="slide-up">
+                            <img src="./images/portfolio/port-3-img.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="port-left">
+                    <div class="port-left-1" data-aos="slide-up">
+                        <img src="./images/portfolio/port-4-img.jpg" alt="">
+                    </div>
+                    <div class="port-left-right">
+                        <div class="port-left-2" data-aos="slide-up">
+                            <img src="./images/portfolio/port-5-img.jpg" alt="">
+                        </div>
+                        <div class="port-left-3" data-aos="slide-up">
+                            <img src="./images/portfolio/port-6-img.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="count-num-wrap">
+        <div class="container">
+            <div class="row count-num-row nums">
+                <div class="count-num-box" data-aos="slide-up">
+                    <h1 class="num" data-goal="445">0</h1>
+                    <h6>Projects Completed</h6>
+                    <p style="font-size: 2.4rem; margin-top: -0.5rem;" class="orange">&#8213</p>
+                </div>
+                <div class="count-num-box" data-aos="slide-up">
+                    <h1 class="num" data-goal="402">0</h1>
+                    <h6>Happy Clients</h6>
+                    <p style="font-size: 2.4rem; margin-top: -0.5rem;" class="orange">&#8213</p>
+                </div>
+                <div class="count-num-box" data-aos="slide-up">
+                    <h1 class="num" data-goal="485">0</h1>
+                    <h6>Answered Tickets</h6>
+                    <p style="font-size: 2.4rem; margin-top: -0.5rem;" class="orange">&#8213</p>
+                </div>
+                <div class="count-num-box" data-aos="slide-up">
+                    <h1 class="num" data-goal="415">0</h1>
+                    <h6>Development Hours</h6>
+                    <p style="font-size: 2.4rem; margin-top: -0.5rem;" class="orange">&#8213</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- team section  -->
+    <section class="team-wrap" id="team">
+        <div class="container">
+            <div class="row text-center blog-head" data-aos="slide-up">
+                <h1> &#8213 CREATIVE <span class="orange"> PEOPLE &#8213 </span> </h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="row team-box-wrap">
+                <div class="team-box" data-aos="slide-up">
+                    <div class="team-img">
+                        <img src="./images/team/team-01.jpg" alt="">
+                    </div>
+                    <div class="team-txt text-center">
+                        <h5 class="orange">SARA SMITH</h5>
+                        <p>FOUNDER AND CEO</p>
+                        <div class="social-icons d-flex justify-content-center">
+                            <i class="social mx-3 fa-brands fa-facebook-f"></i>
+                            <i class="social mx-3 fa-brands fa-twitter"></i>
+                            <i class="social mx-3 fa-brands fa-linkedin-in"></i>
+                            <i class="social mx-3 fa-brands fa-behance"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-box tb-2" data-aos="slide-up">
+                    <div class="team-img">
+                        <img src="./images/team/team-02.jpg" alt="">
+                    </div>
+                    <div class="team-txt text-center">
+                        <h5 class="orange">SOMMER CHRISTIAN</h5>
+                        <p>CREATIVE DIRECTOR</p>
+                        <div class="social-icons d-flex justify-content-center">
+                            <i class="social mx-3 fa-brands fa-facebook-f"></i>
+                            <i class="social mx-3 fa-brands fa-twitter"></i>
+                            <i class="social mx-3 fa-brands fa-linkedin-in"></i>
+                            <i class="social mx-3 fa-brands fa-behance"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-box tb-3" data-aos="slide-up">
+                    <div class="team-img">
+                        <img src="./images/team/team-03.jpg" alt="">
+                    </div>
+                    <div class="team-txt text-center">
+                        <h5 class="orange">ANDREW LUPKIN</h5>
+                        <p>DEVELOPER HEAD</p>
+                        <div class="social-icons d-flex justify-content-center">
+                            <i class="social mx-3 fa-brands fa-facebook-f"></i>
+                            <i class="social mx-3 fa-brands fa-twitter"></i>
+                            <i class="social mx-3 fa-brands fa-linkedin-in"></i>
+                            <i class="social mx-3 fa-brands fa-behance"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-box tb-4" data-aos="slide-up">
+                    <div class="team-img">
+                        <img src="./images/team/team-04.png" alt="">
+                    </div>
+                    <div class="team-txt text-center">
+                        <h5 class="orange">SARA SMITH</h5>
+                        <p>FOUNDER AND CEO</p>
+                        <div class="social-icons d-flex justify-content-center">
+                            <i class="social mx-3 fa-brands fa-facebook-f"></i>
+                            <i class="social mx-3 fa-brands fa-twitter"></i>
+                            <i class="social mx-3 fa-brands fa-linkedin-in"></i>
+                            <i class="social mx-3 fa-brands fa-behance"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- review section  -->
+    <div class="review-wrap">
+        <div class="container">
+            <div class="row review-row">
+                <div class="review-txt" data-aos="slide-up">
+                    <h1 class="mb-4">WHAT <span class="orange"> CLIENTS SAYS <hr></span></h1>
+                    <h5 class="mb-4">We've been crafting beautiful websites, launching stunning brands & making clients happy for years. Remarkable client care and passion for design.</h5>
+                    <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                    <a href="" class="tri-btn">VIEW ALL REVIEWS</a>
+                </div>
+                <div class="review-slider-box" data-aos="slide-up">
+                    <div class="swiper review-slider">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide review-slide">
+                            <img src="./images/review/review-1.jpg" alt="">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            <p>ALEXANDER HARVARD - GOOGLE</p>
+                          </div>
+                          <div class="swiper-slide review-slide">
+                            <img src="./images/review/review-2.jpg" alt="">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            <p>ALEXANDER HARVARD - GOOGLE</p>
+                          </div>
+                          <div class="swiper-slide review-slide">
+                            <img src="./images/review/review-1.jpg" alt="">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            <p>ALEXANDER HARVARD - GOOGLE</p>
+                          </div>
+                          <div class="swiper-slide review-slide">
+                            <img src="./images/review/review-2.jpg" alt="">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            <p>ALEXANDER HARVARD - GOOGLE</p>
+                          </div>
+                          <div class="swiper-slide review-slide">
+                            <img src="./images/review/review-1.jpg" alt="">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            <p>ALEXANDER HARVARD - GOOGLE</p>
+                          </div>
+                          <div class="swiper-slide review-slide">
+                            <img src="./images/review/review-2.jpg" alt="">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            <p>ALEXANDER HARVARD - GOOGLE</p>
+                          </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- small section  -->
+    <div class="small-wrap" data-aos="slide-up">
+    <div class="container">
+        <div class="row small-data">
+            <div class="small-txt text-white">
+                <h1>We Love what we do</h1>
+                <h5>LeadGen comes with a large collection of shortcodes.</h5>
+            </div>
+            <div class="small-btns text-white">
+                <a href="" class="sec-btn stat">START PROJECT</a>
+                <a href="" class="tri-btn b-2 gh">OUR PROJECTS</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- blog section  -->
+    <section class="blog-wrap" id="blog">
+        <div class="container">
+            <div class="row text-center blog-head" data-aos="slide-up">
+                <h1> &#8213 LATEST <span class="orange">BLOGS &#8213</span> </h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="row blog-box-wrap">
+                <div class="blog-box" data-aos="slide-up">
+                    <div class="blog-img">
+                        <img src="./images/blog/blog-02-img.jpg" alt="">
+                    </div>
+                    <div>
+                        <p style="font-weight: 600;" class="mb-2">A LOT OF CARE, EFFORT & PASSION GOES INTO OUR WORK.</p>
+                        <p style="border-bottom: 1px solid hsla(0, 0%, 0%, 0.2);" class="pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p style="font-size: .7rem;">15 SEPTEMBER 2016 / POSTED BY NATHEN FORD</p>
+                    </div>
+                </div>
+                <div class="blog-box bb-2" data-aos="slide-up">
+                    <div class="blog-img">
+                        <img src="./images/blog/blog-1-img.jpg" alt="">
+                    </div>
+                    <div>
+                        <p style="font-weight: 600;" class="mb-2">A LOT OF CARE, EFFORT & PASSION GOES INTO OUR WORK.</p>
+                        <p style="border-bottom: 1px solid hsla(0, 0%, 0%, 0.2);" class="pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p style="font-size: .7rem;">15 SEPTEMBER 2016 / POSTED BY NATHEN FORD</p>
+                    </div>
+                </div>
+                <div class="blog-box bb-3" data-aos="slide-up">
+                    <div class="blog-img">
+                        <img src="images/blog/blog-03-img.jpg" alt="">
+                    </div>
+                    <div>
+                        <p style="font-weight: 600;" class="mb-2">A LOT OF CARE, EFFORT & PASSION GOES INTO OUR WORK.</p>
+                        <p style="border-bottom: 1px solid hsla(0, 0%, 0%, 0.2);" class="pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p style="font-size: .7rem;">15 SEPTEMBER 2016 / POSTED BY NATHEN FORD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section  -->
+    <section class="contact-wrap" id="contact">
+        <div class="container">
+            <div class="row contact-row" data-aos="slide-up">
+                <div class="contact-from">
+                    <h4>Ready to Get Started?</h4>
+                    <input type="text" class="input i-name" placeholder="Your Name">
+                    <input type="email" class="input i-email" placeholder="Your Email">
+                    <textarea name="" id="" cols="30" rows="10" class="i-tarea" placeholder="Your Message"></textarea>
+                    <a href="" class="sec-btn send-btn">SEND MESSAGE</a>
+                </div>
+                <div class="contact-txt" data-aos="slide-up">
+                    <h1 class="mb-4">Looking For a Excellent Business Idea?</h1>
+                    <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text.
+                    </p>
+                    <a href="" class="tri-btn">GET DIRECTION <i class="fa-solid fa-arrow-right"></i> </a>
+                    <div class="headquarter" data-aos="slide-up">
+                        <h4 class="mb-3">Our Headquarters</h4>
+                        <p class="mb-3">301 The Greenhouse, Custard, <br> Factory, London, E2 8DY.</p>
+                        <p class="mb-3">+44 (0) 123 456 7890</p>
+                        <p>origenbcn@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section  -->
+    <footer class="footer-wrap">
+        <div class="container">
+            <div class="row footer-row-1">
+                <div class="footer-link fl-1"><a href="#home">Home</a></div>
+                <div class="footer-link fl-2"><a href="#about">About</a></div>
+                <div class="footer-link fl-3"><a href="#services">Services</a></div>
+                <div class="footer-link fl-4"><a href="#portfolio">Portfolio</a></div>
+                <div class="footer-link fl-5"><a href="#team">Team</a></div>
+                <div class="footer-link fl-6"><a href="#blog">Blog</a></div>
+                <div class="footer-link fl-7"><a href="#contact">Contact</a></div>
+            </div>
+            <div class="footer-row-2">
+               <div class="f-logo">
+                    <img src="./images/others/logo.png"  style="height: 24px;" alt="">
+               </div>
+               <div class="text-white allrights">
+                  <p>&#169 All Rights Are Reserved</p>
+               </div>
+               <div class="text-white">
+                <i class="fa-brands sm-icon fa-facebook"></i>
+                <i class="fa-brands sm-icon fa-linkedin"></i>
+                <i class="fa-brands sm-icon fa-pinterest"></i>
+                <i class="fa-brands sm-icon fa-github"></i>
+               </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap js file  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 60,
+        duration: 650,
+      });
+    </script>
+  </body>
+</html>
